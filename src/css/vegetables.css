@@ -1,3 +1,31 @@
+.swiper {
+  max-width: 335px;
+  height: 250px;
+  position: relative;
+}
+
+.swiper-text {
+  position: absolute;
+  top: 5px;
+  left: 15px;
+}
+
+.swiper-text {
+  position: relative;
+}
+.swipe-price-paragraf {
+  position: absolute;
+  top: 15px;
+  right: 25px;
+}
+
+.vegetables-card-img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 .vegetables-сontainer {
   max-width: 375px;
   margin: 0 auto;
