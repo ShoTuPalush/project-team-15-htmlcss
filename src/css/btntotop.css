@@ -18,8 +18,10 @@
   fill: currentColor;
 }
 
-#myBtn:hover,
-#myBtn:focus {
-  color: white;
-  background-color: #a1c487;
+@media screen and (min-width: 1128px) {
+  #myBtn:hover,
+  #myBtn:focus {
+    color: white;
+    background-color: #a1c487;
+  }
 }
