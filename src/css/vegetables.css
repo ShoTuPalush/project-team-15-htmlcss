@@ -3,7 +3,22 @@
     display: none;
   }
 }
-
+.swiper-button-next:after,
+.swiper-container-rtl .swiper-button-prev:after {
+  content: '';
+  color: orange;
+}
+.swiper-button-prev:after,
+.swiper-container-rtl .swiper-button-prev:after {
+  content: '';
+  color: orange;
+}
+.swiper-pagination-bullet {
+  background-color: #a1c487 !important;
+}
+.swiper-pagination-bullet-active {
+  background-color: orange !important;
+}
 .swiper {
   max-width: 335px;
   height: 360px;

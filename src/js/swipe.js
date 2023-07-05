@@ -11,8 +11,8 @@ const swiper = new Swiper('.swiper', {
   loop: true,
   modules: [Navigation, Pagination],
     pagination: {
-    el: '.swiper-pagination',
-  },
+      el: '.swiper-pagination',
+       },
   navigation: {
     nextEl: '.swiper-button-next',
     prevEl: '.swiper-button-prev',
