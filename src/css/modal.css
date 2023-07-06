@@ -21,7 +21,7 @@
 }
 
 .backdrop.is-hidden .modal {
-  transform:  scale(0.75);
+  transform: scale(0.75);
 }
 
 .modal {
@@ -29,7 +29,7 @@
   top: 0;
   left: 0;
   margin: 0 auto;
-  transform:  scale(1);
+  transform: scale(1);
   max-width: 335px;
   width: 335px;
   height: 903px;
